@@ -1,0 +1,43 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+}
+
+body {
+  background: rgb(239, 239, 244);
+  background: linear-gradient(
+    90deg,
+    rgba(239, 239, 244, 1) 0%,
+    rgba(235, 56, 2, 1) 49%,
+    rgba(0, 212, 255, 1) 92%
+  );
+}
+
+.h1 {
+  font-family: Luminari, fantasy;
+  font-size: 100px;
+  font-style: oblique;
+  font-weight: 800;
+}
+.content {
+  max-width: 900px;
+  margin-top: 70px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 40%;
+}
+.text {
+  font-family: fantasy;
+  font-size: 30px;
+}
+
+img {
+  width: 150px;
+  border-radius: 20px;
+  border: orange solid 5px;
+  box-shadow: 10px;
+}
+.footer {
+  display: flex;
+  justify-content: space-around;
+}
