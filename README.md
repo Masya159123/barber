@@ -1,3 +1,0 @@
-# barber
-barber
-aлло
